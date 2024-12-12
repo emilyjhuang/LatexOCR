@@ -1,4 +1,6 @@
 # LatexOCR
+<img src="https://i.sstatic.net/bjrWg.png" alt="Latex" width="300"/>
+
 
 ## Table of Contents
 
