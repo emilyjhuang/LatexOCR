@@ -25,7 +25,7 @@ This LaTeX OCR system aims to accurately convert images of mathematical equation
 
 - Support for both printed and handwritten mathematical expressions
 
-- Handling of basic mathematical notation, symbols, and forumlas
+- Handling of common mathematical notation, symbols, and formulas
 
 - Comparison of CNN and ViT architectures for this task
 
