@@ -41,8 +41,6 @@ This LaTeX OCR system aims to accurately convert images of mathematical equation
 ## Sources
 Thanks to the following previous works that helped us with ours!
 
-[Tensorflow Image Captioning](https://www.tensorflow.org/text/tutorials/image_captioning)
-
 [Pix2Tex](https://github.com/lukas-blecher/LaTeX-OCR)
 
 [Attention Maps](https://github.com/lukemelas/PyTorch-Pretrained-ViT/issues/19)
