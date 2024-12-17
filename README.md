@@ -15,7 +15,7 @@
 
 As students we have had hard times writing down latex code for homeworks. The process is time consuming and overall not productive to the end goal. Thus, we attempted to create two OCR models that can enable future students and reserachers to be able to take a picture of their math either from their noteboook or online resources and be given the corresponding latex formula. While there are some promising models out there that attempt at this problem we decided to give it a try ourselves to create simplified latex document creation. We created two models:
 
-**CNN-RNN based model:** Inspired by the work of Deng et al. (2016), we use a Convolutional Neural Network to extract image features, followed by a recurrent neural network for decoding the LaTeX output.
+**CNN-RNN based model:** Inspired by the work of Deng et al. (2016), we use a Convolutional Neural Network to extract image features, followed by a recurrent neural network (LSTM) for decoding the LaTeX output.
 
 **Vision Transformer (ViT):** The rise of Transformers could not be ignored and we decided to attempt at our own implementation that treats the input image as a sequence of patches that then predicts the Latex code. 
 
@@ -25,7 +25,7 @@ This LaTeX OCR system aims to accurately convert images of mathematical equation
 
 - Support for both printed and handwritten mathematical expressions
 
-- Handling of complex mathematical notation and symbols
+- Handling of basic mathematical notation, symbols, and forumlas
 
 - Comparison of CNN and ViT architectures for this task
 
@@ -42,5 +42,5 @@ This LaTeX OCR system aims to accurately convert images of mathematical equation
 Thanks to the following previous works that helped us with ours!
 
 [Pix2Tex](https://github.com/lukas-blecher/LaTeX-OCR)
-
 [Attention Maps](https://github.com/lukemelas/PyTorch-Pretrained-ViT/issues/19)
+[V. Mishra and D. Kaur, "Sequence-to-Sequence Learning Using Deep Learning for Optical Character Recognition (OCR)](https://ieeexplore.ieee.org/document/8947839/similar#similar)
